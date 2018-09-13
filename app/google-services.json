@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "107276006685",
+    "firebase_url": "https://iccworldcup2019schedule.firebaseio.com",
+    "project_id": "iccworldcup2019schedule",
+    "storage_bucket": "iccworldcup2019schedule.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107276006685:android:99ec8f4e7d4c2122",
+        "android_client_info": {
+          "package_name": "com.learner.iccworldcup2019schedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107276006685-bhrkdst7n0tb9gl1mhtl56mnq38n3msg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZU9AWf-tukKhxPxMQ9v_ofi8rYG3t3yQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

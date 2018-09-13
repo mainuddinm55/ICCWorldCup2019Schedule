@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3D5166</color>
+    <color name="colorPrimaryDark">#5D7186</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#7e91a6</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="semifinal_list_color">#eceaea</color>
+    <color name="tab_indicator_color">#4eedfc</color>
+</resources>

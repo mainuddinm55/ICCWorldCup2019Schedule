@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ICC World Cup 2019 Fixtures</string>
+    <string name="team_one_name_text">England</string>
+    <string name="team_vs_text">VS</string>
+    <string name="team_two_name_text">South Africa</string>
+    <string name="match_no_text">Match 01</string>
+    <string name="match_start_date_text">Date: Sunday, May 30, 2019</string>
+    <string name="match_start_time_text">Time: 3:30 PM (GMT +6)</string>
+    <string name="match_vanue_name_text">Venue: Lords, London</string>
+    <string name="team_text">Teams</string>
+    <string name="nrr_text">NRR</string>
+    <string name="pts_text">Pts</string>
+    <string name="nr_text">NR</string>
+    <string name="lost_text">L</string>
+    <string name="won_text">W</string>
+    <string name="play_text">P</string>
+    <string name="poitn_table_text">ICC Cricket World Cup, 2019 - Points Table</string>
+    <string name="stadium_name_text">Ground</string>
+    <string name="stadium_city_text">City</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="squad_text">Squad not Announced Yet</string>
+    <string name="stadium_info_text">Venues Info</string>
+    <string name="stadium_name">Lord\'s</string>
+    <string name="stadium_city">London</string>
+    <string name="stadium_establish_text">Established</string>
+    <string name="stadium_establish">1885</string>
+    <string name="stadium_homeground_text">Home Ground</string>
+    <string name="stadium_homeground">Sarrey</string>
+    <string name="stadium_capacity_text">Capacity</string>
+    <string name="stadium_capacity">28000</string>
+    <string name="stadium_floodlight_text">Flood Lights</string>
+    <string name="stadium_floodlight">Yes, 2009</string>
+    <string name="stadium_end_name_text">End Names</string>
+    <string name="stadium_end_name">Pavillion End, Point End</string>
+    <string name="stadium_match_text">Matches</string>
+    <string name="stadium_matches">5</string>
+    <string name="news_desc">News Description</string>
+    <string name="news_title_text">Title</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">World Cup 2019</string>
+    <string name="nav_header_subtitle">Develop by: Md Mainuddin</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="day_left">200</string>
+    <string name="wc_count_down_text">WORLD CUP 2019 COUNTDOWN</string>
+    <string name="nickname_text">Nickname</string>
+    <string name="coach_text">Coach</string>
+    <string name="ranking_text">ICC Ranking</string>
+    <string name="wc_participation_text">World Cup Participation</string>
+    <string name="best_performance_text">Best Performance</string>
+    <string name="sponsor_text">Sponsor</string>
+</resources>

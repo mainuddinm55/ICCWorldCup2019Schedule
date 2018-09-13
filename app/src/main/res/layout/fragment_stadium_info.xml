@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.StadiumInfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/stadium_image_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/stadium_name_text"
+            android:scaleType="fitXY"
+            tools:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/stadium_info_text_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stadium_info_text"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/textColorPrimary"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/ground_name_text_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/textColorPrimary"
+                tools:text="@string/stadium_name_text" />
+
+            <TextView
+                android:id="@+id/ground_name_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                tools:text="@string/stadium_name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/city_text_textview"
+                android:textColor="@color/textColorPrimary"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:text="@string/stadium_city_text" />
+
+            <TextView
+                android:id="@+id/city_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                tools:text="@string/stadium_city" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/establish_text_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:layout_weight="1"
+                tools:text="@string/stadium_establish_text" />
+
+            <TextView
+                android:id="@+id/establish_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                tools:text="@string/stadium_establish" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/homeground_text_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:layout_weight="1"
+                tools:text="@string/stadium_homeground_text" />
+
+            <TextView
+                android:id="@+id/homeground_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                tools:text="@string/stadium_homeground" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/capacity_text_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:layout_weight="1"
+                tools:text="@string/stadium_capacity_text" />
+
+            <TextView
+                android:id="@+id/capacity_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                tools:text="@string/stadium_capacity" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/flood_light_text_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:layout_weight="1"
+                tools:text="@string/stadium_floodlight_text" />
+
+            <TextView
+                android:id="@+id/flood_light_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                tools:text="@string/stadium_floodlight" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/end_name_text_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:layout_weight="1"
+                tools:text="@string/stadium_end_name_text" />
+
+            <TextView
+                android:id="@+id/end_name_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                tools:text="@string/stadium_end_name" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/matches_text_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textColorPrimary"
+                android:layout_weight="1"
+                tools:text="@string/stadium_match_text" />
+
+            <TextView
+                android:id="@+id/matches_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                tools:text="@string/stadium_matches" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
