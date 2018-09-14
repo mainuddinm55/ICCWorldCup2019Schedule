@@ -37,7 +37,7 @@
     <string name="stadium_matches">5</string>
     <string name="news_desc">News Description</string>
     <string name="news_title_text">Title</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">World Cup 2019 Schedule</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">World Cup 2019</string>

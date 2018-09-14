@@ -83,10 +83,16 @@ public class MainActivity extends AppCompatActivity
         mRootRef.keepSynced(true);
         mStatsRef = mRootRef.child(Common.STATS_REF);
 
+        getData();
+
+
+
+    }
+
+    private void getData() {
         mStatsRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-
                 mStats = dataSnapshot.getValue(Stats.class);
                 setData();
                 Log.e(Common.TAG, "onDataChange: " + mStats.getTotalPlayedMatchs());
@@ -97,7 +103,6 @@ public class MainActivity extends AppCompatActivity
 
             }
         });
-
     }
 
     private void setData() {
@@ -142,7 +147,7 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_refresh) {
-            setData();
+            getData();
             return true;
         }
 

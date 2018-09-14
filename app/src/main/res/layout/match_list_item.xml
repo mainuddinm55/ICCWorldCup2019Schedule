@@ -41,11 +41,9 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="75dp"
             android:layout_marginTop="25dp"
-            android:textSize="16sp"
             tools:text="@string/team_one_name_text" />
 
         <TextView
-            android:textSize="16sp"
             android:id="@+id/vs"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -54,7 +52,6 @@
             android:text="@string/team_vs_text" />
 
         <TextView
-            android:textSize="16sp"
             android:id="@+id/team_two_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
